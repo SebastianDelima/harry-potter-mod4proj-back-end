@@ -1,0 +1,2 @@
+class FavoriteSpellsController < ApplicationController
+end
