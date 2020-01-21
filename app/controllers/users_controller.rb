@@ -19,12 +19,13 @@ class UsersController < ApplicationController
     private
 
     def serialized_data  
-        {:except => [:created_at, :updated_at],
-          :include =>  [
+        {
+            :except => [:created_at, :updated_at],
+            :include =>  [
               :characters => {:except => [:created_at, :updated_at]},
               :spells     => {:except => [:created_at, :updated_at]}
-        ]
-    }
+            ]
+        }
     end
 
     def user_params
