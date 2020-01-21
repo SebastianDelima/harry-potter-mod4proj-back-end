@@ -19807,3 +19807,1096 @@ Completed 200 OK in 220ms (Views: 197.1ms | ActiveRecord: 22.3ms | Allocations: 
 
 
 >>>>>>> 2590e67cd9b749955862b62b72b874fb5a8c169f
+  [1m[35m (2.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mCharacter Load (0.8ms)[0m  [1m[34mSELECT "characters".* FROM "characters"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (5.1ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 551]]
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.3ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 552]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.3ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 553]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 554]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 555]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 556]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.3ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 557]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 558]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 559]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 560]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 561]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 562]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.3ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 563]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 564]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 565]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.8ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 566]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 567]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 568]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 569]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 570]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 571]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 572]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.3ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 573]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.4ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 574]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Destroy (0.2ms)[0m  [1m[31mDELETE FROM "characters" WHERE "characters"."id" = $1[0m  [["id", 575]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mSpell Load (0.8ms)[0m  [1m[34mSELECT "spells".* FROM "spells"[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.4ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 303]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (1.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 304]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 305]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.4ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 306]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 307]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 308]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 309]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 310]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 311]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 312]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 313]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 314]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 315]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 316]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 317]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 318]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 319]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 320]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 321]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 322]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 323]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 324]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 325]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 326]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 327]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 328]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 329]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 330]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 331]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 332]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 333]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 334]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 335]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 336]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 337]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 338]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 339]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 340]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 341]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 342]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 343]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 344]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 345]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.1ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 346]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 347]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.1ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 348]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.1ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 349]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 350]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 351]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 352]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 353]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 354]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 355]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 356]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 357]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 358]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 359]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 360]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 361]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 362]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 363]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 364]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 365]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 366]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 367]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 368]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 369]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 370]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 371]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 372]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 373]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 374]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 375]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 376]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 377]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 378]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 379]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 380]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 381]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 382]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 383]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 384]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 385]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 386]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 387]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 388]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 389]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 390]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.1ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 391]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 392]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 393]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 394]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 395]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 396]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 397]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 398]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.1ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 399]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 400]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 401]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 402]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 403]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 404]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 405]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 406]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 407]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.1ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 408]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.1ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 409]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 410]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 411]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 412]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 413]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 414]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 415]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 416]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 417]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 418]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 419]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.4ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 420]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 421]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 422]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.1ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 423]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 424]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 425]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 426]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 427]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 428]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 429]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 430]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 431]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 432]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 433]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 434]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 435]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 436]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 437]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 438]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.1ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 439]]
+  [1m[35m (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.1ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 440]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 441]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 442]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 443]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 444]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 445]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 446]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 447]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 448]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.4ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 449]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.3ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 450]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 451]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 452]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Destroy (0.2ms)[0m  [1m[31mDELETE FROM "spells" WHERE "spells"."id" = $1[0m  [["id", 453]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 5]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 7]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 8]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 9]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 10]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 11]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (2.9ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Harry Potter"], ["hogwarts_student", "Gryffindor"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/harry.jpg"], ["ancestry", "half-blood"], ["role", "male"], ["dateBirth", "31-07-1980"], ["actor", "Daniel Radcliffe"], ["created_at", "2020-01-20 22:07:12.094411"], ["updated_at", "2020-01-20 22:07:12.094411"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.7ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Hermione Granger"], ["hogwarts_student", "Gryffindor"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/hermione.jpeg"], ["ancestry", "muggleborn"], ["role", "female"], ["dateBirth", "19-09-1979"], ["actor", "Emma Watson"], ["created_at", "2020-01-20 22:07:12.103623"], ["updated_at", "2020-01-20 22:07:12.103623"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.4ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Ron Weasley"], ["hogwarts_student", "Gryffindor"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/ron.jpg"], ["ancestry", "pure-blood"], ["role", "male"], ["dateBirth", "01-03-1980"], ["actor", "Rupert Grint"], ["created_at", "2020-01-20 22:07:12.109751"], ["updated_at", "2020-01-20 22:07:12.109751"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Draco Malfoy"], ["hogwarts_student", "Slytherin"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/draco.jpg"], ["ancestry", "pure-blood"], ["role", "male"], ["dateBirth", "05-06-1980"], ["actor", "Tom Felton"], ["created_at", "2020-01-20 22:07:12.113627"], ["updated_at", "2020-01-20 22:07:12.113627"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Minerva McGonagall"], ["hogwarts_student", "Gryffindor"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/mcgonagall.jpg"], ["ancestry", ""], ["role", "female"], ["dateBirth", "04-10-1925"], ["actor", "Dame Maggie Smith"], ["created_at", "2020-01-20 22:07:12.116666"], ["updated_at", "2020-01-20 22:07:12.116666"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Cedric Diggory"], ["hogwarts_student", "Hufflepuff"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/cedric.png"], ["ancestry", ""], ["role", "male"], ["dateBirth", ""], ["actor", "Robert Pattinson"], ["created_at", "2020-01-20 22:07:12.119705"], ["updated_at", "2020-01-20 22:07:12.119705"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Cho Chang"], ["hogwarts_student", "Ravenclaw"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/cho.jpg"], ["ancestry", ""], ["role", "female"], ["dateBirth", ""], ["actor", "Katie Leung"], ["created_at", "2020-01-20 22:07:12.122644"], ["updated_at", "2020-01-20 22:07:12.122644"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.4ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Severus Snape"], ["hogwarts_student", "Slytherin"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/snape.jpg"], ["ancestry", "half-blood"], ["role", "male"], ["dateBirth", "09-01-1960"], ["actor", "Alan Rickman"], ["created_at", "2020-01-20 22:07:12.125619"], ["updated_at", "2020-01-20 22:07:12.125619"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Rubeus Hagrid"], ["hogwarts_student", "Gryffindor"], ["species", "half-giant"], ["image", "http://hp-api.herokuapp.com/images/hagrid.png"], ["ancestry", "half-blood"], ["role", "male"], ["dateBirth", "06-12-1928"], ["actor", "Robbie Coltrane"], ["created_at", "2020-01-20 22:07:12.128577"], ["updated_at", "2020-01-20 22:07:12.128577"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Neville Longbottom"], ["hogwarts_student", "Gryffindor"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/neville.jpg"], ["ancestry", "pure-blood"], ["role", "male"], ["dateBirth", "30-07-1980"], ["actor", "Matthew Lewis"], ["created_at", "2020-01-20 22:07:12.131216"], ["updated_at", "2020-01-20 22:07:12.131216"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.2ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Luna Lovegood"], ["hogwarts_student", "Ravenclaw"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/luna.jpg"], ["ancestry", ""], ["role", "female"], ["dateBirth", "13-02-1981"], ["actor", "Evanna Lynch"], ["created_at", "2020-01-20 22:07:12.133891"], ["updated_at", "2020-01-20 22:07:12.133891"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Ginny Weasley"], ["hogwarts_student", "Gryffindor"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/ginny.jpg"], ["ancestry", "pure-blood"], ["role", "female"], ["dateBirth", "11-08-1981"], ["actor", "Bonnie Wright"], ["created_at", "2020-01-20 22:07:12.136543"], ["updated_at", "2020-01-20 22:07:12.136543"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Sirius Black"], ["hogwarts_student", "Gryffindor"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/sirius.JPG"], ["ancestry", "pure-blood"], ["role", "male"], ["dateBirth", "03-11-1959"], ["actor", "Gary Oldman"], ["created_at", "2020-01-20 22:07:12.139214"], ["updated_at", "2020-01-20 22:07:12.139214"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Remus Lupin"], ["hogwarts_student", "Gryffindor"], ["species", "werewolf"], ["image", "http://hp-api.herokuapp.com/images/lupin.jpg"], ["ancestry", "half-blood"], ["role", "male"], ["dateBirth", "10-03-1960"], ["actor", "David Thewlis"], ["created_at", "2020-01-20 22:07:12.141862"], ["updated_at", "2020-01-20 22:07:12.141862"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.4ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Arthur Weasley"], ["hogwarts_student", "Gryffindor"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/arthur.jpg"], ["ancestry", "pure-blood"], ["role", "male"], ["dateBirth", "06-02-1950"], ["actor", "Mark Williams"], ["created_at", "2020-01-20 22:07:12.144481"], ["updated_at", "2020-01-20 22:07:12.144481"]]
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Bellatrix Lestrange"], ["hogwarts_student", "Slytherin"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/bellatrix.jpg"], ["ancestry", "pure-blood"], ["role", "female"], ["dateBirth", ""], ["actor", "Helena Bonham Carter"], ["created_at", "2020-01-20 22:07:12.148190"], ["updated_at", "2020-01-20 22:07:12.148190"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.2ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Lord Voldemort"], ["hogwarts_student", "Slytherin"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/voldemort.jpg"], ["ancestry", "half-blood"], ["role", "male"], ["dateBirth", "31-12-1926"], ["actor", "Ralph Fiennes"], ["created_at", "2020-01-20 22:07:12.151109"], ["updated_at", "2020-01-20 22:07:12.151109"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.2ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Horace Slughorn"], ["hogwarts_student", "Slytherin"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/slughorn.JPG"], ["ancestry", "pure-blood"], ["role", "male"], ["dateBirth", ""], ["actor", "Jim Broadbent"], ["created_at", "2020-01-20 22:07:12.153485"], ["updated_at", "2020-01-20 22:07:12.153485"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.2ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Kingsley Shacklebolt"], ["hogwarts_student", ""], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/kingsley.jpg"], ["ancestry", "pure-blood"], ["role", "male"], ["dateBirth", ""], ["actor", "George Harris"], ["created_at", "2020-01-20 22:07:12.155880"], ["updated_at", "2020-01-20 22:07:12.155880"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.2ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Dolores Umbridge"], ["hogwarts_student", "Slytherin"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/umbridge.jpg"], ["ancestry", "half-blood"], ["role", "female"], ["dateBirth", ""], ["actor", "Imelda Staunton"], ["created_at", "2020-01-20 22:07:12.158377"], ["updated_at", "2020-01-20 22:07:12.158377"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Lucius Malfoy"], ["hogwarts_student", "Slytherin"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/lucius.jpg"], ["ancestry", "pure-blood"], ["role", "male"], ["dateBirth", ""], ["actor", "Jason Isaacs"], ["created_at", "2020-01-20 22:07:12.160879"], ["updated_at", "2020-01-20 22:07:12.160879"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.4ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Vincent Crabbe"], ["hogwarts_student", "Slytherin"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/crabbe.jpg"], ["ancestry", "pure-blood"], ["role", "male"], ["dateBirth", ""], ["actor", "Jamie Waylett"], ["created_at", "2020-01-20 22:07:12.163759"], ["updated_at", "2020-01-20 22:07:12.163759"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Gregory Goyle"], ["hogwarts_student", "Slytherin"], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/goyle.jpg"], ["ancestry", "pure-blood"], ["role", "male"], ["dateBirth", ""], ["actor", "Josh Herdman"], ["created_at", "2020-01-20 22:07:12.166713"], ["updated_at", "2020-01-20 22:07:12.166713"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.2ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Mrs Norris"], ["hogwarts_student", ""], ["species", "cat"], ["image", "http://hp-api.herokuapp.com/images/norris.JPG"], ["ancestry", ""], ["role", "female"], ["dateBirth", ""], ["actor", "Maxime, Alanis and Tommy the cats"], ["created_at", "2020-01-20 22:07:12.169148"], ["updated_at", "2020-01-20 22:07:12.169148"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCharacter Create (0.3ms)[0m  [1m[32mINSERT INTO "characters" ("name", "hogwarts_student", "species", "image", "ancestry", "role", "dateBirth", "actor", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["name", "Argus Filch"], ["hogwarts_student", ""], ["species", "human"], ["image", "http://hp-api.herokuapp.com/images/filch.jpg"], ["ancestry", "squib"], ["role", "male"], ["dateBirth", ""], ["actor", "David Bradley"], ["created_at", "2020-01-20 22:07:12.171502"], ["updated_at", "2020-01-20 22:07:12.171502"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (4.8ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Aberto"], ["category", "charm"], ["effect", "opens objects"], ["created_at", "2020-01-20 22:07:12.297684"], ["updated_at", "2020-01-20 22:07:12.297684"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.4ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Accio"], ["category", "charm"], ["effect", "Summons an object"], ["created_at", "2020-01-20 22:07:12.307935"], ["updated_at", "2020-01-20 22:07:12.307935"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Age Line"], ["category", "enchantment"], ["effect", "Hides things from younger people"], ["created_at", "2020-01-20 22:07:12.311852"], ["updated_at", "2020-01-20 22:07:12.311852"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Aguamenti"], ["category", "charm"], ["effect", "shoots water from wand"], ["created_at", "2020-01-20 22:07:12.314613"], ["updated_at", "2020-01-20 22:07:12.314613"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Alarte Ascendare"], ["category", "spell"], ["effect", "shoots things high in the air"], ["created_at", "2020-01-20 22:07:12.317566"], ["updated_at", "2020-01-20 22:07:12.317566"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Alohomora"], ["category", "charm"], ["effect", "opens locked objects"], ["created_at", "2020-01-20 22:07:12.320785"], ["updated_at", "2020-01-20 22:07:12.320785"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Anapneo"], ["category", "spell"], ["effect", "clears the target's airway"], ["created_at", "2020-01-20 22:07:12.323267"], ["updated_at", "2020-01-20 22:07:12.323267"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Anteoculatia"], ["category", "hex"], ["effect", "turns head hair into antlers"], ["created_at", "2020-01-20 22:07:12.325879"], ["updated_at", "2020-01-20 22:07:12.325879"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Anti-Cheating"], ["category", "spell"], ["effect", "prevents cheating on exams"], ["created_at", "2020-01-20 22:07:12.338488"], ["updated_at", "2020-01-20 22:07:12.338488"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Aparecium"], ["category", "spell"], ["effect", "reveals invisible ink"], ["created_at", "2020-01-20 22:07:12.341435"], ["updated_at", "2020-01-20 22:07:12.341435"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Apparate"], ["category", "spell"], ["effect", "teleportation spell"], ["created_at", "2020-01-20 22:07:12.344100"], ["updated_at", "2020-01-20 22:07:12.344100"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.4ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Arania Exumai"], ["category", "spell"], ["effect", "blasts away spiders"], ["created_at", "2020-01-20 22:07:12.346985"], ["updated_at", "2020-01-20 22:07:12.346985"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Aqua Eructo"], ["category", "spell"], ["effect", "shoots water from wand"], ["created_at", "2020-01-20 22:07:12.350767"], ["updated_at", "2020-01-20 22:07:12.350767"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.7ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Arresto Momentum"], ["category", "spell"], ["effect", "slows down objects"], ["created_at", "2020-01-20 22:07:12.353535"], ["updated_at", "2020-01-20 22:07:12.353535"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Ascendio"], ["category", "spell"], ["effect", "moves an object upward"], ["created_at", "2020-01-20 22:07:12.356789"], ["updated_at", "2020-01-20 22:07:12.356789"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Avada Kedavra"], ["category", "curse"], ["effect", "murders opponent"], ["created_at", "2020-01-20 22:07:12.359525"], ["updated_at", "2020-01-20 22:07:12.359525"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.7ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Avifors"], ["category", "charm"], ["effect", "turns small objects into birds"], ["created_at", "2020-01-20 22:07:12.362277"], ["updated_at", "2020-01-20 22:07:12.362277"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Avis"], ["category", "spell"], ["effect", "launches birds from your wand"], ["created_at", "2020-01-20 22:07:12.365577"], ["updated_at", "2020-01-20 22:07:12.365577"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Babbling Curse "], ["category", "curse"], ["effect", "makes a person babble"], ["created_at", "2020-01-20 22:07:12.368182"], ["updated_at", "2020-01-20 22:07:12.368182"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Bombarda"], ["category", "spell"], ["effect", "causes explosions"], ["created_at", "2020-01-20 22:07:12.370717"], ["updated_at", "2020-01-20 22:07:12.370717"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Bombarda Maxima"], ["category", "spell"], ["effect", "causes large explosions"], ["created_at", "2020-01-20 22:07:12.373295"], ["updated_at", "2020-01-20 22:07:12.373295"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.4ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Bubble Head"], ["category", "charm"], ["effect", "puts a person's head in a protective air bubble"], ["created_at", "2020-01-20 22:07:12.375823"], ["updated_at", "2020-01-20 22:07:12.375823"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Carpe Retractum"], ["category", "spell"], ["effect", "shoots a rope from a wand to snag things"], ["created_at", "2020-01-20 22:07:12.379065"], ["updated_at", "2020-01-20 22:07:12.379065"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Caterwauling"], ["category", "charm"], ["effect", "detects enemies and emits a scream"], ["created_at", "2020-01-20 22:07:12.382006"], ["updated_at", "2020-01-20 22:07:12.382006"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cave Inimicum"], ["category", "charm"], ["effect", "detects enemies and emits an alarm"], ["created_at", "2020-01-20 22:07:12.384511"], ["updated_at", "2020-01-20 22:07:12.384511"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cheering"], ["category", "charm"], ["effect", "makes a person happy and giddy"], ["created_at", "2020-01-20 22:07:12.386954"], ["updated_at", "2020-01-20 22:07:12.386954"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cistem Aperio"], ["category", "spell"], ["effect", "opens things"], ["created_at", "2020-01-20 22:07:12.389382"], ["updated_at", "2020-01-20 22:07:12.389382"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Colloportus"], ["category", "spell"], ["effect", "locks doors"], ["created_at", "2020-01-20 22:07:12.391806"], ["updated_at", "2020-01-20 22:07:12.391806"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Colloshoo"], ["category", "spell"], ["effect", "makes a person's shoes stick to the ground"], ["created_at", "2020-01-20 22:07:12.394213"], ["updated_at", "2020-01-20 22:07:12.394213"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Colovaria"], ["category", "charm"], ["effect", "makes an object change colour"], ["created_at", "2020-01-20 22:07:12.396602"], ["updated_at", "2020-01-20 22:07:12.396602"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Confringo"], ["category", "curse"], ["effect", "explode flames on target"], ["created_at", "2020-01-20 22:07:12.399025"], ["updated_at", "2020-01-20 22:07:12.399025"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Confundus"], ["category", "charm"], ["effect", "used to confuse opponent"], ["created_at", "2020-01-20 22:07:12.401521"], ["updated_at", "2020-01-20 22:07:12.401521"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Conjunctivitis"], ["category", "curse"], ["effect", "damages opponent's eyesight"], ["created_at", "2020-01-20 22:07:12.403997"], ["updated_at", "2020-01-20 22:07:12.403997"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cornflake Skin"], ["category", "curse"], ["effect", "gives a person cereal skin"], ["created_at", "2020-01-20 22:07:12.406509"], ["updated_at", "2020-01-20 22:07:12.406509"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Crucio"], ["category", "curse"], ["effect", "tortures a person"], ["created_at", "2020-01-20 22:07:12.410043"], ["updated_at", "2020-01-20 22:07:12.410043"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Cushioning"], ["category", "charm"], ["effect", "helps cushon a fall"], ["created_at", "2020-01-20 22:07:12.412994"], ["updated_at", "2020-01-20 22:07:12.412994"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Defodio"], ["category", "spell"], ["effect", "dig out materials"], ["created_at", "2020-01-20 22:07:12.415614"], ["updated_at", "2020-01-20 22:07:12.415614"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Deletrius"], ["category", "spell"], ["effect", "counters \"Prior Incantato\""], ["created_at", "2020-01-20 22:07:12.418218"], ["updated_at", "2020-01-20 22:07:12.418218"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Densaugeo"], ["category", "spell"], ["effect", "enlarges teeth"], ["created_at", "2020-01-20 22:07:12.420754"], ["updated_at", "2020-01-20 22:07:12.420754"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Deprimo"], ["category", "spell"], ["effect", "wind damaging spell"], ["created_at", "2020-01-20 22:07:12.423321"], ["updated_at", "2020-01-20 22:07:12.423321"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Depulso"], ["category", "charm"], ["effect", "drives an object away"], ["created_at", "2020-01-20 22:07:12.425910"], ["updated_at", "2020-01-20 22:07:12.425910"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Descendo"], ["category", "spell"], ["effect", "moves an object downwards"], ["created_at", "2020-01-20 22:07:12.428614"], ["updated_at", "2020-01-20 22:07:12.428614"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Diffindo"], ["category", "spell"], ["effect", "splits seams"], ["created_at", "2020-01-20 22:07:12.431211"], ["updated_at", "2020-01-20 22:07:12.431211"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Diminuendo"], ["category", "spell"], ["effect", "shrinks the target"], ["created_at", "2020-01-20 22:07:12.433762"], ["updated_at", "2020-01-20 22:07:12.433762"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Dissendium"], ["category", "spell"], ["effect", "opens passageways"], ["created_at", "2020-01-20 22:07:12.436316"], ["updated_at", "2020-01-20 22:07:12.436316"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Disillusionment"], ["category", "charm"], ["effect", "makes the target blend into the surroundings"], ["created_at", "2020-01-20 22:07:12.438983"], ["updated_at", "2020-01-20 22:07:12.438983"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Duro"], ["category", "spell"], ["effect", "makes objects hard"], ["created_at", "2020-01-20 22:07:12.441637"], ["updated_at", "2020-01-20 22:07:12.441637"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Drought"], ["category", "charm"], ["effect", "dries up puddles"], ["created_at", "2020-01-20 22:07:12.444180"], ["updated_at", "2020-01-20 22:07:12.444180"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Ears to Kumquats"], ["category", "spell"], ["effect", "gives a person kumquat ears"], ["created_at", "2020-01-20 22:07:12.456916"], ["updated_at", "2020-01-20 22:07:12.456916"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Ear Shriveling "], ["category", "curse"], ["effect", "cause a person's ear to shrivel"], ["created_at", "2020-01-20 22:07:12.460027"], ["updated_at", "2020-01-20 22:07:12.460027"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Engorgio"], ["category", "charm"], ["effect", "enlarges an item"], ["created_at", "2020-01-20 22:07:12.462973"], ["updated_at", "2020-01-20 22:07:12.462973"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Ennervate"], ["category", "spell"], ["effect", "counters Stupefy"], ["created_at", "2020-01-20 22:07:12.465714"], ["updated_at", "2020-01-20 22:07:12.465714"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Entrail-Expelling"], ["category", "curse"], ["effect", "expel entrails from a body"], ["created_at", "2020-01-20 22:07:12.468551"], ["updated_at", "2020-01-20 22:07:12.468551"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Episkey"], ["category", "spell"], ["effect", "heals minor injuries"], ["created_at", "2020-01-20 22:07:12.471713"], ["updated_at", "2020-01-20 22:07:12.471713"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Epoximise"], ["category", "spell"], ["effect", "binds objects together"], ["created_at", "2020-01-20 22:07:12.474450"], ["updated_at", "2020-01-20 22:07:12.474450"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Erecto"], ["category", "spell"], ["effect", "builds things"], ["created_at", "2020-01-20 22:07:12.476988"], ["updated_at", "2020-01-20 22:07:12.476988"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Evanesco"], ["category", "spell"], ["effect", "makes things vanish"], ["created_at", "2020-01-20 22:07:12.479577"], ["updated_at", "2020-01-20 22:07:12.479577"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Everte Statum"], ["category", "spell"], ["effect", "throws a victim backwards"], ["created_at", "2020-01-20 22:07:12.482184"], ["updated_at", "2020-01-20 22:07:12.482184"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Expecto Patronum"], ["category", "charm"], ["effect", "creates a Patronus"], ["created_at", "2020-01-20 22:07:12.484707"], ["updated_at", "2020-01-20 22:07:12.484707"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Expelliarmus"], ["category", "charm"], ["effect", "disarms your opponent"], ["created_at", "2020-01-20 22:07:12.487225"], ["updated_at", "2020-01-20 22:07:12.487225"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Expulso"], ["category", "spell"], ["effect", "makes objects explode"], ["created_at", "2020-01-20 22:07:12.489755"], ["updated_at", "2020-01-20 22:07:12.489755"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Extinguishing"], ["category", "spell"], ["effect", "puts out fires"], ["created_at", "2020-01-20 22:07:12.492289"], ["updated_at", "2020-01-20 22:07:12.492289"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Ferula"], ["category", "spell"], ["effect", "creates bandages"], ["created_at", "2020-01-20 22:07:12.494791"], ["updated_at", "2020-01-20 22:07:12.494791"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Fianto Duri"], ["category", "charm"], ["effect", "defensive charm"], ["created_at", "2020-01-20 22:07:12.497468"], ["updated_at", "2020-01-20 22:07:12.497468"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Fidelius"], ["category", "charm"], ["effect", "hides a secret within someone"], ["created_at", "2020-01-20 22:07:12.500080"], ["updated_at", "2020-01-20 22:07:12.500080"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Fiendfyre"], ["category", "curse"], ["effect", "hard to control large fire curse"], ["created_at", "2020-01-20 22:07:12.502601"], ["updated_at", "2020-01-20 22:07:12.502601"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Finestra"], ["category", "spell"], ["effect", "turns windows to dust"], ["created_at", "2020-01-20 22:07:12.505090"], ["updated_at", "2020-01-20 22:07:12.505090"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Finite"], ["category", "spell"], ["effect", "finishes spell in the caster's area"], ["created_at", "2020-01-20 22:07:12.507621"], ["updated_at", "2020-01-20 22:07:12.507621"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Finite Incantatum"], ["category", "spell"], ["effect", "stops any current spells"], ["created_at", "2020-01-20 22:07:12.510119"], ["updated_at", "2020-01-20 22:07:12.510119"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.4ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Flagrante"], ["category", "curse"], ["effect", "multiplies and burns objects upon touch"], ["created_at", "2020-01-20 22:07:12.512670"], ["updated_at", "2020-01-20 22:07:12.512670"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Flagrate"], ["category", "spell"], ["effect", "allows user to write on objects"], ["created_at", "2020-01-20 22:07:12.515912"], ["updated_at", "2020-01-20 22:07:12.515912"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Flame Freezing"], ["category", "charm"], ["effect", "makes flames cool"], ["created_at", "2020-01-20 22:07:12.518507"], ["updated_at", "2020-01-20 22:07:12.518507"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Flipendo"], ["category", "jinx"], ["effect", "knocks an object backwards"], ["created_at", "2020-01-20 22:07:12.520917"], ["updated_at", "2020-01-20 22:07:12.520917"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Flying"], ["category", "charm"], ["effect", "makes objects fly"], ["created_at", "2020-01-20 22:07:12.523336"], ["updated_at", "2020-01-20 22:07:12.523336"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Fumos"], ["category", "spell"], ["effect", "a defensive cloud of smoke"], ["created_at", "2020-01-20 22:07:12.526017"], ["updated_at", "2020-01-20 22:07:12.526017"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Furnunculus"], ["category", "curse"], ["effect", "produces boils on opponent"], ["created_at", "2020-01-20 22:07:12.528647"], ["updated_at", "2020-01-20 22:07:12.528647"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Geminio"], ["category", "spell"], ["effect", "duplicates an object"], ["created_at", "2020-01-20 22:07:12.531658"], ["updated_at", "2020-01-20 22:07:12.531658"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Glisseo"], ["category", "spell"], ["effect", "turns stairs into ramps"], ["created_at", "2020-01-20 22:07:12.534512"], ["updated_at", "2020-01-20 22:07:12.534512"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Gripping"], ["category", "charm"], ["effect", "makes it easier to hold things"], ["created_at", "2020-01-20 22:07:12.536956"], ["updated_at", "2020-01-20 22:07:12.536956"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Harmonia Nectere Passus"], ["category", "spell"], ["effect", "mends broken things"], ["created_at", "2020-01-20 22:07:12.539301"], ["updated_at", "2020-01-20 22:07:12.539301"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Homenum Revelio"], ["category", "spell"], ["effect", "reveals humans nearby"], ["created_at", "2020-01-20 22:07:12.541554"], ["updated_at", "2020-01-20 22:07:12.541554"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Homonculous"], ["category", "charm"], ["effect", "lets a person track another's movement on a map"], ["created_at", "2020-01-20 22:07:12.543963"], ["updated_at", "2020-01-20 22:07:12.543963"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Homorphus"], ["category", "charm"], ["effect", "Lockhart's warewolf \"cure\""], ["created_at", "2020-01-20 22:07:12.546559"], ["updated_at", "2020-01-20 22:07:12.546559"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Horcrux"], ["category", "curse"], ["effect", "allows wizard to put their soul into an object"], ["created_at", "2020-01-20 22:07:12.549150"], ["updated_at", "2020-01-20 22:07:12.549150"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Illegibilus"], ["category", "spell"], ["effect", "makes text unreadable"], ["created_at", "2020-01-20 22:07:12.551718"], ["updated_at", "2020-01-20 22:07:12.551718"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Immobulus"], ["category", "charm"], ["effect", "renders target immobile"], ["created_at", "2020-01-20 22:07:12.554275"], ["updated_at", "2020-01-20 22:07:12.554275"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Impedimenta"], ["category", "charm"], ["effect", "slows an advancing object"], ["created_at", "2020-01-20 22:07:12.556859"], ["updated_at", "2020-01-20 22:07:12.556859"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Imperio"], ["category", "curse"], ["effect", "controls a person"], ["created_at", "2020-01-20 22:07:12.560062"], ["updated_at", "2020-01-20 22:07:12.560062"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Impervius"], ["category", "charm"], ["effect", "makes an object repel water"], ["created_at", "2020-01-20 22:07:12.572233"], ["updated_at", "2020-01-20 22:07:12.572233"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Incarcerous"], ["category", "spell"], ["effect", "ties someone up"], ["created_at", "2020-01-20 22:07:12.575225"], ["updated_at", "2020-01-20 22:07:12.575225"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Incendio"], ["category", "spell"], ["effect", "starts a fire"], ["created_at", "2020-01-20 22:07:12.578022"], ["updated_at", "2020-01-20 22:07:12.578022"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Lacarnum Inflamarae"], ["category", "spell"], ["effect", "shoots a fireball from caster's wand"], ["created_at", "2020-01-20 22:07:12.580760"], ["updated_at", "2020-01-20 22:07:12.580760"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.8ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Langlock"], ["category", "spell"], ["effect", "glues opponent's tongue to roof of mouth"], ["created_at", "2020-01-20 22:07:12.583333"], ["updated_at", "2020-01-20 22:07:12.583333"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.4ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Legilimens"], ["category", "spell"], ["effect", "allows caster to read the mind of the target"], ["created_at", "2020-01-20 22:07:12.586941"], ["updated_at", "2020-01-20 22:07:12.586941"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Levicorpus"], ["category", "spell"], ["effect", "hangs target upside down by feet"], ["created_at", "2020-01-20 22:07:12.589911"], ["updated_at", "2020-01-20 22:07:12.589911"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Liberacorpus"], ["category", "spell"], ["effect", "counter spell to Levicorpus"], ["created_at", "2020-01-20 22:07:12.592732"], ["updated_at", "2020-01-20 22:07:12.592732"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Locomotor Mortis"], ["category", "curse"], ["effect", "locks opponent's legs"], ["created_at", "2020-01-20 22:07:12.595281"], ["updated_at", "2020-01-20 22:07:12.595281"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Lumos"], ["category", "spell"], ["effect", "creates light at wand tip"], ["created_at", "2020-01-20 22:07:12.598393"], ["updated_at", "2020-01-20 22:07:12.598393"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Lumos Maxima"], ["category", "spell"], ["effect", "creates ball of light that can brighten a room for a long period of time"], ["created_at", "2020-01-20 22:07:12.601287"], ["updated_at", "2020-01-20 22:07:12.601287"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Lumos Solem"], ["category", "spell"], ["effect", "creates a strong beam of light from the wand"], ["created_at", "2020-01-20 22:07:12.603883"], ["updated_at", "2020-01-20 22:07:12.603883"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Meteolojinx Recanto"], ["category", "spell"], ["effect", "causes weather effect spells to stop"], ["created_at", "2020-01-20 22:07:12.606211"], ["updated_at", "2020-01-20 22:07:12.606211"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mimblewimble"], ["category", "curse"], ["effect", "tongue ties it's target"], ["created_at", "2020-01-20 22:07:12.608696"], ["updated_at", "2020-01-20 22:07:12.608696"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mobiliarbus"], ["category", "charm"], ["effect", "moves objects with wand"], ["created_at", "2020-01-20 22:07:12.611294"], ["updated_at", "2020-01-20 22:07:12.611294"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Mobilicorpus"], ["category", "spell"], ["effect", "moves unconcious bodies"], ["created_at", "2020-01-20 22:07:12.613879"], ["updated_at", "2020-01-20 22:07:12.613879"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Morsmorde"], ["category", "spell"], ["effect", "conjures the dark mark"], ["created_at", "2020-01-20 22:07:12.616444"], ["updated_at", "2020-01-20 22:07:12.616444"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.4ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Morsmorde"], ["category", "spell"], ["effect", "prevents nearby people from listening to conversations"], ["created_at", "2020-01-20 22:07:12.618993"], ["updated_at", "2020-01-20 22:07:12.618993"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Nox"], ["category", "spell"], ["effect", "counter to Lumos, turns off light"], ["created_at", "2020-01-20 22:07:12.622190"], ["updated_at", "2020-01-20 22:07:12.622190"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Oculus Reparo"], ["category", "spell"], ["effect", "repairs eyeglasses"], ["created_at", "2020-01-20 22:07:12.625151"], ["updated_at", "2020-01-20 22:07:12.625151"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Obliteration"], ["category", "charm"], ["effect", "removes footprints"], ["created_at", "2020-01-20 22:07:12.627678"], ["updated_at", "2020-01-20 22:07:12.627678"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Obliviate"], ["category", "charm"], ["effect", "erases memories"], ["created_at", "2020-01-20 22:07:12.630263"], ["updated_at", "2020-01-20 22:07:12.630263"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Obscuro"], ["category", "spell"], ["effect", "blindfolds the victim"], ["created_at", "2020-01-20 22:07:12.632760"], ["updated_at", "2020-01-20 22:07:12.632760"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Oppugno"], ["category", "spell"], ["effect", "makes conjured items attack"], ["created_at", "2020-01-20 22:07:12.635364"], ["updated_at", "2020-01-20 22:07:12.635364"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Orchideous"], ["category", "spell"], ["effect", "conjures flowers"], ["created_at", "2020-01-20 22:07:12.637929"], ["updated_at", "2020-01-20 22:07:12.637929"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Periculum"], ["category", "spell"], ["effect", "makes fireworks from the wand tip"], ["created_at", "2020-01-20 22:07:12.640395"], ["updated_at", "2020-01-20 22:07:12.640395"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Permanent Sticking"], ["category", "charm"], ["effect", "causes items to permanently stick to things"], ["created_at", "2020-01-20 22:07:12.642910"], ["updated_at", "2020-01-20 22:07:12.642910"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Petrificus Totalus"], ["category", "spell"], ["effect", "body bind"], ["created_at", "2020-01-20 22:07:12.645397"], ["updated_at", "2020-01-20 22:07:12.645397"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Piertotum Locomotor"], ["category", "spell"], ["effect", "animates statues and suits of armor"], ["created_at", "2020-01-20 22:07:12.647836"], ["updated_at", "2020-01-20 22:07:12.647836"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Point Me"], ["category", "charm"], ["effect", "wand acts like a compass"], ["created_at", "2020-01-20 22:07:12.650406"], ["updated_at", "2020-01-20 22:07:12.650406"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Portus"], ["category", "charm"], ["effect", "makes an object a Portkey"], ["created_at", "2020-01-20 22:07:12.652931"], ["updated_at", "2020-01-20 22:07:12.652931"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Priori Incantatem"], ["category", "spell"], ["effect", "when sibling wands duel, the weaker wand shows all recently cast spells"], ["created_at", "2020-01-20 22:07:12.655442"], ["updated_at", "2020-01-20 22:07:12.655442"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Prior Incantato"], ["category", "spell"], ["effect", "reveals a wand's last spell"], ["created_at", "2020-01-20 22:07:12.657903"], ["updated_at", "2020-01-20 22:07:12.657903"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Protego"], ["category", "charm"], ["effect", "cause spells to reflect back to the sender"], ["created_at", "2020-01-20 22:07:12.660445"], ["updated_at", "2020-01-20 22:07:12.660445"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.9ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Protego Totalum"], ["category", "charm"], ["effect", "area protection charm"], ["created_at", "2020-01-20 22:07:12.662879"], ["updated_at", "2020-01-20 22:07:12.662879"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Quietus"], ["category", "spell"], ["effect", "counter spell for Sonorous"], ["created_at", "2020-01-20 22:07:12.666536"], ["updated_at", "2020-01-20 22:07:12.666536"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Reducio"], ["category", "spell"], ["effect", "returns items to original size. counters Engorgio"], ["created_at", "2020-01-20 22:07:12.669229"], ["updated_at", "2020-01-20 22:07:12.669229"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Reducto"], ["category", "spell"], ["effect", "blasts solid objects aside"], ["created_at", "2020-01-20 22:07:12.671644"], ["updated_at", "2020-01-20 22:07:12.671644"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Relashio"], ["category", "spell"], ["effect", "releases user from binding"], ["created_at", "2020-01-20 22:07:12.674110"], ["updated_at", "2020-01-20 22:07:12.674110"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Rennervate"], ["category", "spell"], ["effect", "cures unconciousness"], ["created_at", "2020-01-20 22:07:12.676600"], ["updated_at", "2020-01-20 22:07:12.676600"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Reparo"], ["category", "spell"], ["effect", "repairs things"], ["created_at", "2020-01-20 22:07:12.679097"], ["updated_at", "2020-01-20 22:07:12.679097"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Repello Muggletum"], ["category", "spell"], ["effect", "keeps muggles away"], ["created_at", "2020-01-20 22:07:12.691485"], ["updated_at", "2020-01-20 22:07:12.691485"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Repello Inimicum"], ["category", "spell"], ["effect", "keeps evil beings away"], ["created_at", "2020-01-20 22:07:12.694208"], ["updated_at", "2020-01-20 22:07:12.694208"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Revelio"], ["category", "spell"], ["effect", "reveals hidden objects"], ["created_at", "2020-01-20 22:07:12.696864"], ["updated_at", "2020-01-20 22:07:12.696864"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Rictusempra"], ["category", "charm"], ["effect", "tickles target"], ["created_at", "2020-01-20 22:07:12.699477"], ["updated_at", "2020-01-20 22:07:12.699477"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Riddikulus"], ["category", "spell"], ["effect", "causes target to laugh and defeats Boggarts"], ["created_at", "2020-01-20 22:07:12.702126"], ["updated_at", "2020-01-20 22:07:12.702126"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Salvio Hexia"], ["category", "spell"], ["effect", "protection against hexes"], ["created_at", "2020-01-20 22:07:12.704875"], ["updated_at", "2020-01-20 22:07:12.704875"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Scourgify"], ["category", "charm"], ["effect", "cleaning charm"], ["created_at", "2020-01-20 22:07:12.707506"], ["updated_at", "2020-01-20 22:07:12.707506"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.4ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Sectumsempra"], ["category", "spell"], ["effect", "causes wounds as if slashed by a sword"], ["created_at", "2020-01-20 22:07:12.709913"], ["updated_at", "2020-01-20 22:07:12.709913"]]
+  [1m[35m (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Serpensortia"], ["category", "spell"], ["effect", "produces a snake"], ["created_at", "2020-01-20 22:07:12.713142"], ["updated_at", "2020-01-20 22:07:12.713142"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Silencio"], ["category", "spell"], ["effect", "silences target"], ["created_at", "2020-01-20 22:07:12.715924"], ["updated_at", "2020-01-20 22:07:12.715924"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Slugulus Eructo"], ["category", "charm"], ["effect", "makes target vomit slugs"], ["created_at", "2020-01-20 22:07:12.718453"], ["updated_at", "2020-01-20 22:07:12.718453"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Sonorus"], ["category", "spell"], ["effect", "amplifies voice"], ["created_at", "2020-01-20 22:07:12.720955"], ["updated_at", "2020-01-20 22:07:12.720955"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Specialis Revelio"], ["category", "spell"], ["effect", "reveals hidden secrets or magical properties"], ["created_at", "2020-01-20 22:07:12.723446"], ["updated_at", "2020-01-20 22:07:12.723446"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Stinging Jinx"], ["category", "jinx"], ["effect", "makes target feel stinging"], ["created_at", "2020-01-20 22:07:12.726022"], ["updated_at", "2020-01-20 22:07:12.726022"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Stupefy"], ["category", "spell"], ["effect", "knocks out target"], ["created_at", "2020-01-20 22:07:12.728485"], ["updated_at", "2020-01-20 22:07:12.728485"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Switching Spell"], ["category", "spell"], ["effect", "switches objects"], ["created_at", "2020-01-20 22:07:12.731017"], ["updated_at", "2020-01-20 22:07:12.731017"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Tarantallegra"], ["category", "spell"], ["effect", "forces target to dance"], ["created_at", "2020-01-20 22:07:12.733599"], ["updated_at", "2020-01-20 22:07:12.733599"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Tergeo"], ["category", "spell"], ["effect", "cleans up messes"], ["created_at", "2020-01-20 22:07:12.735996"], ["updated_at", "2020-01-20 22:07:12.735996"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Unbreakable Vow"], ["category", "spell"], ["effect", "a vow that if broken, kills you"], ["created_at", "2020-01-20 22:07:12.738467"], ["updated_at", "2020-01-20 22:07:12.738467"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Vulnera Sanentur"], ["category", "spell"], ["effect", "heals target"], ["created_at", "2020-01-20 22:07:12.741112"], ["updated_at", "2020-01-20 22:07:12.741112"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.2ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Waddiwasi"], ["category", "spell"], ["effect", "unsticks an object"], ["created_at", "2020-01-20 22:07:12.744611"], ["updated_at", "2020-01-20 22:07:12.744611"]]
+  [1m[35m (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mSpell Create (0.3ms)[0m  [1m[32mINSERT INTO "spells" ("name", "category", "effect", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["name", "Wingardium Leviosa"], ["category", "charm"], ["effect", "makes an object fly"], ["created_at", "2020-01-20 22:07:12.747208"], ["updated_at", "2020-01-20 22:07:12.747208"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("name", "house", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["name", "Chiney"], ["house", "Ravenclaw"], ["created_at", "2020-01-20 22:07:12.750281"], ["updated_at", "2020-01-20 22:07:12.750281"]]
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
