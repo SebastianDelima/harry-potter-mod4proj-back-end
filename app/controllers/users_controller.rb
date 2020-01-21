@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
     def index
-        render json: User.all
+        users = User.all
+        render json: users.to_json(serialized_data)
     end
     
     def show
@@ -9,7 +10,9 @@ class UsersController < ApplicationController
     end
 
     def create
-      User.create(user_params)
+      user = User.create(user_params)
+      found_user = User.find_by id: user.id
+      render json: found_user.to_json(serialized_data)
     end
 
 
@@ -17,7 +20,10 @@ class UsersController < ApplicationController
 
     def serialized_data  
         {:except => [:created_at, :updated_at],
-          :include =>  [:characters => {:except => [:created_at, :updated_at]}]
+          :include =>  [
+              :characters => {:except => [:created_at, :updated_at]},
+              :spells     => {:except => [:created_at, :updated_at]}
+        ]
     }
     end
 
