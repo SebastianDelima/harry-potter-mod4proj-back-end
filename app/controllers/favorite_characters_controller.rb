@@ -4,7 +4,14 @@ class FavoriteCharactersController < ApplicationController
     end
 
     def create
-        byebug
-        # FavoriteCharacter.create
+      
+        FavoriteCharacter.create(favorite_params)
+
+    end
+
+    private
+
+    def favorite_params
+        params.require(:favorite_character).permit(:user_id, :character_id)
     end
 end
