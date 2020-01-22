@@ -9,6 +9,13 @@ class FavoriteCharactersController < ApplicationController
         render json: user.to_json(serialized_data)
     end
 
+    def destroy
+        character = FavoriteCharacter.find(params[:id])
+        character.destroy
+        user =  User.find(params[:user_id])
+        render json: user.to_json(serialized_data)
+    end
+
     private
 
     def favorite_params
