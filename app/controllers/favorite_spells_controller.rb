@@ -9,6 +9,13 @@ class FavoriteSpellsController < ApplicationController
         render json: user.to_json(serialized_data)
     end
 
+    def destroy
+        fav_spell = FavoriteSpell.find_by id: params[:id]
+        fav_spell.destroy
+        user =  User.find(params[:user_id])
+        render json: user.to_json(serialized_data)
+    end
+
     private
 
     def favorite_params
