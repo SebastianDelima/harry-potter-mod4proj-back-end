@@ -1,24 +1,3 @@
-# README
+Marauder's map
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+A Harry Potter fan page with information about all the characters, spells, and interesting facts. Users have the ability to store favorite characters and spells, also new users are assigned into one of the 4 Hogward’s houses.
